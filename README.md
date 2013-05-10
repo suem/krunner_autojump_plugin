@@ -23,9 +23,11 @@ INSTALLATION
 The plugin requires a working [autojump](http://github.com/joelthelion/autojump) installation, and of course the KDE desktop environment.
 
 To install just run:
+
 	./install.sh
 
 To remove just run:
+
 	./remove.sh
 
 COPYRIGHT
