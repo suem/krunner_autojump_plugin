@@ -14,6 +14,7 @@ Jump to directory in Konsole
     j foo
 
 Jump to directory in Dolphin
+
 	jo foo
 
 INSTALLATION
