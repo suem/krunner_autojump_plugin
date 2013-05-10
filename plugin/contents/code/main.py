@@ -37,7 +37,7 @@ class AutoJumpRunner(plasmascript.Runner):
         # strip the keyword and leading space
         q = q.trimmed()
 
-        output = subprocess.Popen('autojump --completion %s' % qi, 
+        output = subprocess.Popen('autojump --completion %s' % q, 
                                   shell=True, stdout=subprocess.PIPE).stdout
 
         # FIXME: This breaks in case autojump is not installed and the shell
@@ -71,9 +71,9 @@ class AutoJumpRunner(plasmascript.Runner):
         runInTerminal = match.data().toPyObject()
 
         if runInTerminal:
-            KToolInvocation.startServiceByDesktopName("dolphin",match.text())
-        else:
             KToolInvocation.invokeTerminal("",match.text())
+        else:
+            KToolInvocation.startServiceByDesktopName("dolphin",match.text())
 
 
 def CreateRunner(parent):
