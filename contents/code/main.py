@@ -10,7 +10,7 @@ class AutoJumpRunner(plasmascript.Runner):
     def init(self):
         # called upon creation to let us run any intialization
         # tell the user how to use this runner
-        self.addSyntax(Plasma.RunnerSyntax("jump :d:", "Jump to d"))
+		self.addSyntax(Plasma.RunnerSyntax("j :str:", "Jump to :str:"))
  
     def match(self, context):
         # called by krunner to let us add actions for the user

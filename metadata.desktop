@@ -1,15 +1,14 @@
 [Desktop Entry]
-Name=Autojump plugin
+Name=Autojump
 Comment=Integrate autojump into krunner
 Type=Service
 Icon=dialog-information
 ServiceTypes=Plasma/Runner
 X-Plasma-API=python
 X-Plasma-MainScript=code/main.py
-X-KDE-PluginInfo-Author=Samuel Ueltschi
-X-KDE-PluginInfo-Email=<your email>
-X-KDE-PluginInfo-Name=autojump_runner
+X-KDE-PluginInfo-Author=suem
+X-KDE-PluginInfo-Name=autojump
 X-KDE-PluginInfo-Version=0.1
-X-KDE-PluginInfo-Website=http://plasma.kde.org/
+X-KDE-PluginInfo-Website=http://github.com/suem/krunner_autojump_plugin
 X-KDE-PluginInfo-License=LGPLv3
 X-KDE-PluginInfo-EnabledByDefault=true
