@@ -3,6 +3,8 @@ NAME
 
 krunner_autojump_plugin - integrate autojump into KDE's krunner 
 
+![](doc/screen1.png "autojump in krunner")
+
 USAGE
 -----
 The plugin works just like autojump in the command line.
